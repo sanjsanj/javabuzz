@@ -22,6 +22,8 @@ var Javabuzz = function() {
       return "Buzz";
     } else if (this.isDivisibleByThree(number)) {
       return "Java";
-    }
+    } else {
+      return number;
+    };
   };
 };
