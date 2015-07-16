@@ -41,5 +41,9 @@ describe('Javabuzz', function(){
     it('Buzz when number is divisible by 5', function(){
       expect(javabuzz.says(5)).toEqual("Buzz");
     })
+
+    it('Java when number is divisible by 3', function() {
+      expect(javabuzz.says(3)).toEqual("Java");
+    });
   });
 });

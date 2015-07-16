@@ -20,6 +20,8 @@ var Javabuzz = function() {
       return "Javabuzz";
     } else if (this.isDivisibleByFive(number)) {
       return "Buzz";
-    };
+    } else if (this.isDivisibleByThree(number)) {
+      return "Java";
+    }
   };
 };
